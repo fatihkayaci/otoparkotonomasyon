@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.arka{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.baslik {
+    position: absolute;
+    color: white;
+    background-color: rgba(100,100,100,0.50);
+    margin-left: 380px;
+    margin-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: ariel;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: gray 0px 0px 10px 5px;
+}
+
+#middle {
+    position: absolute;
+    background-color: rgba(60,60,60,0.70);
+    margin-left: 525px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: ariel;
+    border-radius: 15px;
+    box-shadow: gray 0px 0px 10px 5px;
+    margin-top: 250px;
+}
+
+.btn {
+    background-color: white;
+    box-shadow: gray 0px 0px 10px 5px;
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.btn:hover {
+    box-shadow: white 0px 0px 10px 5px;
+    background-color: rgba(60,60,60,0.30);
+    color: white;
+    transition: 500ms;
+    border: none;
+}
+
+#kullaniciInput {
+    background-color: white;
+    box-shadow: gray 0px 0px 10px 5px;
+    border-radius: 6px;
+    width: 250px;
+    height: 30px;
+    margin: 20px;
+}
+
+#sifreInput {
+    background-color: white;
+    box-shadow: gray 0px 0px 10px 5px;
+    border-radius: 6px;
+    width: 250px;
+    height: 30px;
+    margin: 20px;
+}
+
+.unut{
+    position: absolute;
+    margin-top: -15px;
+    color: white;
+    border-bottom: 1px solid white;
+    font-family: calibri;
+    margin-left: 100px;
+}
+.unut1 {
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 200px;
+}
+
+.unut1:hover {
+    box-shadow: white 0px 0px 10px 5px;
+    background-color: rgba(60,60,60,0.30);
+    transition: 500ms;
+    border: none;
+}

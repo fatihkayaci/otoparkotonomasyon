@@ -1,0 +1,142 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+
+.arka{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.baslik {
+    position: absolute;
+    color: white;
+    background-color: rgba(100,100,100,0.50);
+    margin-left: 370px;
+    margin-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: ariel;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: gray 0px 0px 10px 5px;
+}
+
+#middle{
+    margin-left: 300px;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    background-color: rgba(60,60,60,0.70);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: ariel;
+    border-radius: 15px;
+    box-shadow: gray 0px 0px 10px 5px;
+    margin-top: 190px;
+}
+
+.sol_baslik {
+    border-bottom: solid white; 
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-bottom: 150px;
+}  
+
+#middle-left{
+    margin-top: 20px;
+    height:300px;
+    width:400px;
+    float:left;
+    position:relative;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: ariel;
+}
+#middle-right{
+    margin-top: 20px;
+    margin-right: -100px;
+    height:300px;
+    width:400px;
+    float:right;
+    position:relative;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: ariel;
+}
+button[id="kayit"]{
+    font-size: 20px;
+    margin-left: 310px;
+    margin-top: 30px;
+    width: 150px;;
+    height:30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: black 0px 0px 5px 2px; 
+    cursor: pointer;
+}
+
+button[id="kayit"]:hover {
+    box-shadow: white 0px 0px 10px 5px;
+    background-color: rgb(20,20,20);
+    color: white;
+    transition: 500ms;
+}
+
+button[id="iptal"]{
+    font-size: 20px;
+    margin-left: 310px; 
+    margin-top: 60px;
+    width: 150px;;
+    height:30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: black 0px 0px 5px 2px; 
+    cursor: pointer;
+    background-color: rgba(255,0,0,0.7);
+}
+
+button[id="iptal"]:hover {
+    transition: 500ms;
+    box-shadow: black 0px 0px 15px 10px;
+    background-color: red;
+    color: white;
+}
+    
+select{
+    width:70%;
+    height: 25px;
+}
+form input{
+    width:70%;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+form input:hover{
+    box-shadow: gray 0px 0px 5px 2px;
+    transition: 500ms;  
+}
+
+@media screen and (max-width:480px) {
+
+/*test*/
+#kapsul{width:100%;}
+#alt-sag {
+    width: 100%;
+	height:auto
+
+}
+#alt-sol {
+    width: 100%;
+	height:auto
+}
+/*test*/
+
+}

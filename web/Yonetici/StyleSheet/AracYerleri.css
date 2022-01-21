@@ -1,0 +1,87 @@
+body{
+    padding:0;
+    margin:0;
+}
+.arka{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.baslik {
+    position: absolute;
+    color: white;
+    background-color: rgba(100,100,100,0.50);
+    margin-left: 370px;
+    margin-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: ariel;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: gray 0px 0px 10px 5px;
+}
+
+#middle{
+    margin-left: 320px;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    background-color: rgba(60,60,60,0.70);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: ariel;
+    border-radius: 15px;
+    box-shadow: gray 0px 0px 10px 5px;
+    margin-top: 190px;
+}
+#middle input{
+    width:100%;
+    height: 30px;
+    margin-bottom: 2px;
+}
+#middle input{
+    cursor:pointer;
+}
+#sutun1{
+    width:20%;
+    float:left;
+}
+#sutun2{
+    width:20%;
+    float:left;
+}
+#sutun3{
+    width:20%;
+    float:left;
+}
+#sutun4{
+    width:20%;
+    float:left;
+}
+#sutun5{
+    width:20%;
+    float:left;
+}
+#sutun6{
+    width:20%;
+    float:left;
+}
+@media screen and (max-width:480px) {
+
+/*test*/
+#kapsul{width:100%;}
+#alt-sag {
+    width: 100%;
+	height:auto
+
+}
+#alt-sol {
+    width: 100%;
+	height:auto
+}
+/*test*/
+
+}

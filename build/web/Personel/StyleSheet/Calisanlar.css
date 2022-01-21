@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:rgb(157, 161, 160);
+    height:100%;
+    width:100%;
+    margin:0
+}
+
+#kapsul{
+    margin:0 auto 0 auto;
+    width:100%;
+    max-width:1000px;
+    height:1080px;
+    position:relative;
+}
+header{
+    background-color:rgb(237, 240, 239);
+    width:100%;
+    text-align: center;
+    height:100px;
+    position:relative;
+}
+#middle{
+    border:1px solid black;
+    background-color:rgb(68, 235, 112);
+}
+#label-div{
+    width: 10%;
+}
+#input-div,select{
+    width: 30%;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+input,option{
+    margin-left: 30%;
+}
+label{
+    margin-left:30%;
+}
+#button-div{
+    width:20%;
+    height: 30px;
+    margin-left: 30%;
+}
+button{
+    width: 49%;
+    height: 100%;
+}
+
+form input{
+    width:30%;
+    height: 25px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:480px) {
+
+/*test*/
+#kapsul{width:100%;}
+#alt-sag {
+    width: 100%;
+	height:auto
+
+}
+#alt-sol {
+    width: 100%;
+	height:auto
+}
+/*test*/
+
+}

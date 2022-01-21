@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:rgb(157, 161, 160);
+    height:100%;
+    width:100%;
+    margin:0
+}
+
+#kapsul{
+    margin:0 auto 0 auto;
+    width:100%;
+    max-width:1000px;
+    height:1080px;
+    position:relative;
+}
+header{
+    background-color:rgb(237, 240, 239);
+    width:100%;
+    text-align: center;
+    height:100px;
+    position:relative;
+}
+header h1{
+    font-size:70px;
+}
+#middle{
+    background-color:rgb(91, 217, 112);
+    height:680px;
+    width:100%;
+    float:left;
+    position:relative;
+}
+#toplama-div{
+    width: 300px;
+    height: 100px;
+    margin-top: 28%;
+    margin-right: 70px;
+    float: right
+}
+#middle form{
+    width: 20%;
+    margin:auto;
+    margin-top:25%;
+}
+#middle form label{
+    font-size: 25px;
+    color:white;
+}
+#middle form input{
+    width: 200px;
+    height: 20px;
+}
+#middle form button{
+    width:150px;
+    border-radius:20px;
+    border:none;
+    height: 40px;
+    margin-left:10%;
+}
+#middle form button:hover{
+    cursor:pointer;
+    background-color:rgb(199, 191, 191);
+}
+@media screen and (max-width:480px) {
+
+/*test*/
+#kapsul{width:100%;}
+#alt-sag {
+    width: 100%;
+	height:auto
+
+}
+#alt-sol {
+    width: 100%;
+	height:auto
+}
+/*test*/
+
+}

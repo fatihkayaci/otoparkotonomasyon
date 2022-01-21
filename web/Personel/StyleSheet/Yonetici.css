@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(157, 161, 160);
+    height:100%;
+    width:100%;
+    margin:0
+}
+
+#kapsul{
+    margin:0 auto 0 auto;
+    width:100%;
+    max-width:1000px;
+    height:700px;
+    position:relative;
+}
+
+header{
+    background-color:black;
+    width:100%;
+    height:150px;
+    position:relative;
+    text-align: center;
+}
+
+#middle{
+    background-color:rgb(91, 217, 112);
+    height:595px;
+    width:100%;
+    float:right;
+}
+#middle form {
+    width: 50%;
+    margin:auto;
+}
+#middle form button{
+    border-radius: 30px;
+    border:none;
+    margin-top:30px;
+    width: 100%;
+    height:60px;
+}
+#middle form button:hover{
+    cursor:pointer;
+    background-color:rgb(199, 191, 191);
+}
+#middle form button:active{
+    background-color:rgb(117, 120, 125);
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+@media screen and (max-width:480px) {
+
+/*test*/
+#kapsul{width:100%;}
+#alt-sag {
+    width: 100%;
+	height:auto
+
+}
+#alt-sol {
+    width: 100%;
+	height:auto
+}
+/*test*/
+
+}
